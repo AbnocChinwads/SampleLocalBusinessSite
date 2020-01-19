@@ -1,0 +1,38 @@
+/*---------------------------------------------- Body*/
+
+body {
+    height: 100vh;
+    background-color: orangered;
+}
+
+/*---------------------------------------------- Header*/
+
+header {
+    background-color: blueviolet;
+}
+
+/*---------------------------------------------- Section*/
+
+section {
+    margin-left: 2em;
+}
+
+#map-style {
+    height: 300px;
+    width: 400px;
+    border: 1px solid #000;
+}
+
+/*---------------------------------------------- Footer*/
+
+#footer {
+    background-color: rebeccapurple;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#footer > a {
+    margin: 1em;
+    color: #fff;
+}
