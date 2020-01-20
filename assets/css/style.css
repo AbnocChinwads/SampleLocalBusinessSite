@@ -1,38 +1,62 @@
 /*---------------------------------------------- Body*/
 
+/* Helps footer stay at bottom of body */
 body {
-    height: 100vh;
-    background-color: orangered;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 3rem; /* Footer position */
 }
 
 /*---------------------------------------------- Header*/
 
 header {
-    background-color: blueviolet;
+    background-color: #970303;
 }
 
 /*---------------------------------------------- Section*/
 
 section {
     margin-left: 2em;
+    margin-bottom: 1em;
 }
 
+.jumbotron {
+    width: 50vw;
+}
+
+/* Map Size */
 #map-style {
     height: 300px;
     width: 400px;
     border: 1px solid #000;
 }
 
+/*Allows gallery images to be same size */
+.gallery-img {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0.25em;
+    border: 0.0625em solid #000;
+}
+
 /*---------------------------------------------- Footer*/
 
+/* Sets footer position to bottom of body regardless of content */
 #footer {
-    background-color: rebeccapurple;
+    position: absolute;
+    left: 0;
+    bottom: 0;
     padding-top: 1em;
     padding-bottom: 1em;
+    width: 100%;
+    background-color: #970303;
+    color: #fff;
     text-align: center;
 }
 
 #footer > a {
-    margin: 1em;
+    margin: 0.5em;
     color: #fff;
 }
