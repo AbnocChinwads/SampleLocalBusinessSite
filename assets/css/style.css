@@ -27,6 +27,17 @@ section {
     width: 50vw;
 }
 
+.section-img {
+    height: 200px;
+    width: 100px;
+    margin-top: 5em;
+    margin-left: 10em;
+    transition: transform 2s ease-in-out;
+}
+.section-img:hover {
+    transform: scale(2);
+}
+
 /* Map Size */
 #map-style {
     height: 300px;
